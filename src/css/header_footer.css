@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #2a9d8f;
+    --secondary-color: #e9c46a;
+    --accent-color: #f4a261;
+    --dark-color: #264653;
+    --light-color: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    background-color: var(--dark-color);
+}
+
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 60px;
+    color: var(--light-color) !important;
+}
+
+.nav-link {
+    color: var(--light-color) !important;
+    font-weight: 500;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+.footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 40px 0;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.badge-eco {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.a {
+    height: 100vh;
+}

@@ -54,6 +54,102 @@
         </div>
     </div>
 </nav>
+
+<!-- Filtros -->
+<section class="py-3">
+    <div class="container">
+        <div class="filters-section">
+            <h4 class="mb-4"><i class="fas fa-filter me-2"></i>Filtrar Produtos</h4>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="filter-group">
+                        <div class="filter-title" data-bs-toggle="collapse" data-bs-target="#priceFilter">
+                            <span>Preço</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="collapse show" id="priceFilter">
+                            <input type="range" class="price-slider" min="0" max="1000" value="1000" id="priceRange">
+                            <div class="price-values">
+                                <span>R$ 0</span>
+                                <span id="priceValue">R$ 1000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="filter-group">
+                        <div class="filter-title" data-bs-toggle="collapse" data-bs-target="#typeFilter">
+                            <span>Tipo</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="collapse show" id="typeFilter">
+                            <div class="filter-options">
+                                <div class="filter-option">
+                                    <input type="checkbox" id="type-organic" class="filter-checkbox" data-filter="type" value="organico">
+                                    <label for="type-organic">Orgânico</label>
+                                </div>
+                                <div class="filter-option">
+                                    <input type="checkbox" id="type-recycled" class="filter-checkbox" data-filter="type" value="reciclado">
+                                    <label for="type-recycled">Reciclado</label>
+                                </div>
+                                <div class="filter-option">
+                                    <input type="checkbox" id="type-vegan" class="filter-checkbox" data-filter="type" value="vegano">
+                                    <label for="type-vegan">Vegano</label>
+                                </div>
+                                <div class="filter-option">
+                                    <input type="checkbox" id="type-biodegradable" class="filter-checkbox" data-filter="type" value="biodegradavel">
+                                    <label for="type-biodegradable">Biodegradável</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="filter-group">
+                        <div class="filter-title" data-bs-toggle="collapse" data-bs-target="#brandFilter">
+                            <span>Marca</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="collapse show" id="brandFilter">
+                            <div class="filter-options">
+                                <div class="filter-option">
+                                    <input type="checkbox" id="brand-ecotrend" class="filter-checkbox" data-filter="brand" value="ecotrend">
+                                    <label for="brand-ecotrend">EcoTrend</label>
+                                </div>
+                                <div class="filter-option">
+                                    <input type="checkbox" id="brand-natureza" class="filter-checkbox" data-filter="brand" value="natureza">
+                                    <label for="brand-natureza">Natureza Viva</label>
+                                </div>
+                                <div class="filter-option">
+                                    <input type="checkbox" id="brand-verde" class="filter-checkbox" data-filter="brand" value="verde">
+                                    <label for="brand-verde">Verde Concept</label>
+                                </div>
+                                <div class="filter-option">
+                                    <input type="checkbox" id="brand-sustenta" class="filter-checkbox" data-filter="brand" value="sustenta">
+                                    <label for="brand-sustenta">SustentaBrasil</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="filter-buttons">
+                <button class="btn btn-primary" id="applyFilters">Aplicar Filtros</button>
+                <button class="btn btn-outline-secondary" id="clearFilters">Limpar Filtros</button>
+            </div>
+            
+            <div class="filter-results" id="filterResults">
+                Mostrando todos os produtos
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <!-- Seção de Produtos por Categoria -->
 <section id="produtos" class="py-5 bg-light">
     <div class="container">

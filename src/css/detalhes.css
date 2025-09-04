@@ -1,0 +1,11 @@
+.product-image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  height: 400px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

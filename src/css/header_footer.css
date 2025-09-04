@@ -10,12 +10,19 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .navbar {
     background-color: var(--dark-color);
 }
 
+.nav-link.active {
+    color: var(--secondary-color) !important;
+    font-weight: 700;
+}
 
 .navbar-brand {
     font-weight: 700;
@@ -34,27 +41,14 @@ body {
 }
 
 .footer {
-
     background-color: var(--dark-color);
     color: white;
     padding: 40px 0;
+    margin-top: auto;
 }
 
 .social-icons a {
     color: white;
     font-size: 1.5rem;
     margin-right: 15px;
-}
-
-.badge-eco {
-    background-color: var(--secondary-color);
-    color: var(--dark-color);
-    padding: 5px 10px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-
-.a {
-    height: 100vh;
 }

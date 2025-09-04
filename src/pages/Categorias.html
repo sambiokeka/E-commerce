@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome para ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/categorias.css">
     <link rel="stylesheet" href="../css/header_footer.css">
 </head>
 <body>
@@ -24,10 +24,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Início</a>
+                    <a class="nav-link" href="../../index.html">Início</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
                         Categorias
                     </a>
                     <ul class="dropdown-menu">
@@ -38,7 +38,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="Sobre.html">Sobre</a>
                 </li>
             </ul>
             <div class="d-flex">
@@ -54,7 +54,263 @@
         </div>
     </div>
 </nav>
-<div class="a">a</div>
+<!-- Seção de Produtos por Categoria -->
+<section id="produtos" class="py-5 bg-light">
+    <div class="container">
+        <!-- Roupas e Acessórios -->
+        <div id="roupas" class="mb-5">
+            <h2 class="section-title">Roupas e Acessórios</h2>
+            <div class="product-grid">
+                <a class="detalhes-link" href="./detalhes/camiseta.html">
+                    <div class="product-card">
+                        <img src="../assets/images/algodao.webp" alt="Camiseta sustentável">
+                        <div class="product-info">
+                            <span class="badge-eco">Eco-friendly</span>
+                            <h5>Camiseta Orgânica</h5>
+                            <p>Camiseta feita com algodão 100% orgânico</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 79,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="detalhes-link" href="./detalhes/bolsa.html">
+                    <div class="product-card">
+                        <img src="../assets/images/bag.webp" alt="Bolsa sustentável">
+                        <div class="product-info">
+                            <span class="badge-eco">Reciclado</span>
+                            <h5>Bolsa de Garrafa PET</h5>
+                            <p>Bolsa feita com material reciclado de garrafas PET</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 89,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="detalhes-link" href="./detalhes/tenis.html">
+                    <div class="product-card">
+                        <img src="../assets/images/tenis.avif" alt="Tênis sustentável">
+                        <div class="product-info">
+                            <span class="badge-eco">Orgânico</span>
+                            <h5>Tênis Ecológico</h5>
+                            <p>Tênis feito com materiais veganos e sustentáveis</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 199,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="detalhes-link" href="./detalhes/moletom.html">
+                    <div class="product-card">
+                        <img src="../assets/images/moletom.webp" alt="Moletom sustentável">
+                        <div class="product-info">
+                            <span class="badge-eco">Ecológico</span>
+                            <h5>Moletom Sustentável</h5>
+                            <p>Moletom feito com algodão orgânico e corantes naturais</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 329,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Beleza Natural -->
+        <div id="beleza" class="mb-5">
+            <h2 class="section-title">Beleza Natural</h2>
+            <div class="product-grid">
+                <a class="detalhes-link" href="./detalhes/kit-beleza.html">
+                    <div class="product-card">
+                        <img src="../assets/images/kitbeleza.jpg" alt="Kit de beleza natural">
+                        <div class="product-info">
+                            <span class="badge-eco">Natural</span>
+                            <h5>Kit Beleza Natural</h5>
+                            <p>Produtos de beleza com ingredientes naturais</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 129,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="detalhes-link" href="./detalhes/shampoo.html">
+                    <div class="product-card">
+                        <img src="../assets/images/shamposolido.png" alt="Shampoo sólido">
+                        <div class="product-info">
+                            <span class="badge-eco">Zero Waste</span>
+                            <h5>Shampoo Sólido</h5>
+                            <p>Shampoo em barra natural, sem embalagem plástica</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 32,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="detalhes-link" href="./detalhes/escova.html">
+                    <div class="product-card">
+                        <img src="../assets/images/escova.webp" alt="Escova de dentes de bambu">
+                        <div class="product-info">
+                            <span class="badge-eco">Biodegradável</span>
+                            <h5>Escova de Bambu</h5>
+                            <p>Escova de dentes com cabo de bambu e cerdas naturais</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 24,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="detalhes-link" href="./detalhes/creme.html">
+                    <div class="product-card">
+                        <img src="../assets/images/creme.webp" alt="Creme facial natural">
+                        <div class="product-info">
+                            <span class="badge-eco">Orgânico</span>
+                            <h5>Creme Facial Natural</h5>
+                            <p>Hidratante facial com ingredientes 100% naturais</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 59,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Casa Sustentável -->
+        <div id="casa" class="mb-5">
+            <h2 class="section-title">Casa Sustentável</h2>
+            <div class="product-grid">
+                <a class="detalhes-link" href="./detalhes/copo.html">
+                    <div class="product-card">
+                        <img src="../assets/images/copo.jpg" alt="Copo reutilizável">
+                        <div class="product-info">
+                            <span class="badge-eco">Reutilizável</span>
+                            <h5>Copo Reutilizável</h5>
+                            <p>Copo de bambu com tampa, perfeito para o dia a dia</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 39,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="detalhes-link" href="./detalhes/canudos.html">
+                    <div class="product-card">
+                        <img src="../assets/images/canudo.webp" alt="Canudos reutilizáveis">
+                        <div class="product-info">
+                            <span class="badge-eco">Reutilizável</span>
+                            <h5>Kit Canudos de Inox</h5>
+                            <p>Conjunto com 4 canudos de inox e limpador</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 49,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="detalhes-link" href="./detalhes/cozinha.html">
+                    <div class="product-card">
+                        <img src="../assets/images/cozinha.webp" alt="Itens para casa">
+                        <div class="product-info">
+                            <span class="badge-eco">Eco-friendly</span>
+                            <h5>Conjunto de Cozinha</h5>
+                            <p>Utensílios de cozinha feitos com materiais sustentáveis</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 89,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="detalhes-link" href="./detalhes/tapete.html">
+                    <div class="product-card">
+                        <img src="../assets/images/tapete.jpg" alt="Tapete Biodegradável">
+                        <div class="product-info">
+                            <span class="badge-eco">Natural</span>
+                            <h5>Tapete Biodegradável</h5>
+                            <p>Tapete feito de materiais biodegradáveis</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 199,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Tecnologia Verde -->
+        <div id="tecnologia">
+            <h2 class="section-title">Tecnologia Verde</h2>
+            <div class="product-grid">
+                <a class="detalhes-link" href="./detalhes/carregador.html">
+                    <div class="product-card">
+                        <img src="../assets/images/bateriasolar.webp" alt="Carregador solar">
+                        <div class="product-info">
+                            <span class="badge-eco">Energia Solar</span>
+                            <h5>Carregador Solar</h5>
+                            <p>Carregador portátil com energia solar para dispositivos móveis</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 199,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="detalhes-link" href="./detalhes/lampada.html">
+                    <div class="product-card">
+                        <img src="../assets/images/LED.jpg" alt="Tecnologia verde">
+                        <div class="product-info">
+                            <span class="badge-eco">Eficiência Energética</span>
+                            <h5>Lâmpada LED Ecológica</h5>
+                            <p>Lâmpada LED de baixo consumo energético</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 29,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="detalhes-link" href="./detalhes/termostato.html">
+                    <div class="product-card">
+                        <img src="../assets/images/termostato.webp" alt="Tecnologia verde">
+                        <div class="product-info">
+                            <span class="badge-eco">Smart Home</span>
+                            <h5>Termostato Inteligente</h5>
+                            <p>Termostato que economiza energia e reduz emissões</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 599,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="detalhes-link" href="./detalhes/capa.html">
+                    <div class="product-card">
+                        <img src="../assets/images/capa.jpg" alt="Produtos sustentáveis">
+                        <div class="product-info">
+                            <span class="badge-eco">Inovação</span>
+                            <h5>Capa de celular ecológica</h5>
+                            <p>Feita de materiais que não ferem o meio ambiente</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="product-price">R$ 39,90</span>
+                                <a href="#" class="btn btn-primary btn-sm">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Footer -->
 <footer class="footer">
     <div class="container">
@@ -69,30 +325,30 @@
                     <a href="#"><i class="fab fa-pinterest"></i></a>
                 </div>
             </div>
-            <div class="col-md-2 mb-4">
-                <h5>Loja</h5>
-                <ul class="list-unstyled">
-                    <li><a href="#roupas" class="text-white">Roupas</a></li>
-                    <li><a href="#beleza" class="text-white">Beleza</a></li>
-                    <li><a href="#casa" class="text-white">Casa</a></li>
-                    <li><a href="#tecnologia" class="text-white">Tecnologia</a></li>
-                </ul>
-            </div>
-            <div class="col-md-2 mb-4">
-                <h5>Informações</h5>
-                <ul class="list-unstyled">
-                    <li><a href="#" class="text-white">Sobre Nós</a></li>
-                    <li><a href="#" class="text-white">Perguntas Frequentes</a></li>
-                    <li><a href="#" class="text-white">Entregas</a></li>
-                    <li><a href="#" class="text-white">Trocas e Devoluções</a></li>
-                </ul>
-            </div>
+<div class="col-md-2 mb-4">
+    <h5>Loja</h5>
+    <ul class="list-unstyled">
+        <li><a href="#roupas" class="text-white">Roupas</a></li>
+        <li><a href="#beleza" class="text-white">Beleza</a></li>
+        <li><a href="#casa" class="text-white">Casa</a></li>
+        <li><a href="#tecnologia" class="text-white">Tecnologia</a></li>
+    </ul>
+</div>
+<div class="col-md-2 mb-4">
+    <h5>Informações</h5>
+    <ul class="list-unstyled">
+        <li><a href="#" class="text-white">Sobre Nós</a></li>
+        <li><a href="#" class="text-white">Perguntas Frequentes</a></li>
+        <li><a href="#" class="text-white">Entregas</a></li>
+        <li><a href="#" class="text-white">Trocas e Devoluções</a></li>
+    </ul>
+</div>
             <div class="col-md-4 mb-4">
-                <h5>Contato</h5>
+                <h5>Sobre</h5>
                 <ul class="list-unstyled">
                     <li><i class="fas fa-map-marker-alt me-2"></i> Av. Sustentabilidade, 123 - EcoVille</li>
                     <li><i class="fas fa-phone me-2"></i> (11) 99999-9999</li>
-                    <li><i class="fas fa-envelope me-2"></i> contato@ecotrend.com</li>
+                    <li><i class="fas fa-envelope me-2"></i> Sobre@ecotrend.com</li>
                 </ul>
             </div>
         </div>
@@ -107,5 +363,6 @@
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+</body>
+</html>
 

@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoTrend - Produtos Sustentáveis</title>
+    <title>EcoTrend - Sobre Nós</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome para ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header_footer.css">
+    <link rel="stylesheet" href="../css/sobre.css">
 </head>
 <body>
 <!-- Navbar -->
@@ -54,7 +54,107 @@
         </div>
     </div>
 </nav>
-<div class="a">a</div>
+
+<!-- Conteúdo Sobre -->
+<section class="about-section">
+    <div class="container">
+        <div class="about-content">
+            <h2 class="about-title">Sobre a EcoTrend</h2>
+            
+            <p class="about-text">
+                A <strong>EcoTrend</strong> nasceu da paixão pelo meio ambiente e da crença de que é possível unir estilo, 
+                conforto e sustentabilidade. Somos uma loja online especializada em produtos ecológicos que 
+                oferecem alternativas conscientes para o seu dia a dia.
+            </p>
+            
+            <p class="about-text">
+                Nossa missão é promover um estilo de vida mais sustentável, oferecendo produtos que minimizam 
+                o impacto ambiental sem abrir mão da qualidade e do design. Acreditamos que pequenas mudanças 
+                no consumo diário podem fazer uma grande diferença para o planeta.
+            </p>
+            
+            <div class="mission-values">
+                <h4>Nossa Missão e Valores</h4>
+                
+                <div class="value-item">
+                    <div class="value-icon"><i class="fas fa-leaf"></i></div>
+                    <div>
+                        <strong>Sustentabilidade:</strong> Priorizamos materiais e processos de produção que respeitam o meio ambiente.
+                    </div>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    <div>
+                        <strong>Transparência:</strong> Somos honestos sobre a origem e o impacto ambiental de nossos produtos.
+                    </div>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon"><i class="fas fa-recycle"></i></div>
+                    <div>
+                        <strong>Inovação:</strong> Buscamos constantemente novas soluções e tecnologias verdes.
+                    </div>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon"><i class="fas fa-users"></i></div>
+                    <div>
+                        <strong>Comunidade:</strong> Acreditamos no poder da comunidade para promover mudanças positivas.
+                    </div>
+                </div>
+            </div>
+            
+            <p class="about-text">
+                Na EcoTrend, você encontrará uma curadoria especial de produtos que inclui roupas feitas com 
+                algodão orgânico, acessórios sustentáveis, produtos de beleza naturais, itens para casa 
+                ecológicos e tecnologia verde. Cada produto em nossa loja foi selecionado cuidadosamente 
+                para garantir que atenda aos nossos rigorosos critérios de sustentabilidade.
+            </p>
+            
+            <p class="about-text">
+                Ao escolher a EcoTrend, você não está apenas adquirindo produtos de qualidade - está 
+                participando de um movimento por um consumo mais consciente e um futuro mais sustentável 
+                para as próximas gerações.
+            </p>
+        </div>
+        
+        <!-- Formulário -->
+        <div class="contact-form-section">
+            <h3>Entre em Contato Conosco</h3>
+            
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome completo</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="assunto" class="form-label">Assunto</label>
+                    <input type="text" class="form-control" id="assunto" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-ecotrend">Enviar mensagem</button>
+            </form>
+        </div>
+    </div>
+</section>
+
 <!-- Footer -->
 <footer class="footer">
     <div class="container">
@@ -69,24 +169,24 @@
                     <a href="#"><i class="fab fa-pinterest"></i></a>
                 </div>
             </div>
-<div class="col-md-2 mb-4">
-    <h5>Loja</h5>
-    <ul class="list-unstyled">
-        <li><a href="categorias.html#roupas" class="text-white">Roupas</a></li>
-        <li><a href="Categorias.html#beleza" class="text-white">Beleza</a></li>
-        <li><a href="Categorias.html#casa" class="text-white">Casa</a></li>
-        <li><a href="Categorias.html#tecnologia" class="text-white">Tecnologia</a></li>
-    </ul>
-</div>
-<div class="col-md-2 mb-4">
-    <h5>Informações</h5>
-    <ul class="list-unstyled">
-        <li><a href="#" class="text-white">Sobre Nós</a></li>
-        <li><a href="#" class="text-white">Perguntas Frequentes</a></li>
-        <li><a href="#" class="text-white">Entregas</a></li>
-        <li><a href="#" class="text-white">Trocas e Devoluções</a></li>
-    </ul>
-</div>
+            <div class="col-md-2 mb-4">
+                <h5>Loja</h5>
+                <ul class="list-unstyled">
+                    <li><a href="categorias.html#roupas" class="text-white">Roupas</a></li>
+                    <li><a href="Categorias.html#beleza" class="text-white">Beleza</a></li>
+                    <li><a href="Categorias.html#casa" class="text-white">Casa</a></li>
+                    <li><a href="Categorias.html#tecnologia" class="text-white">Tecnologia</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 mb-4">
+                <h5>Informações</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Sobre Nós</a></li>
+                    <li><a href="#" class="text-white">Perguntas Frequentes</a></li>
+                    <li><a href="#" class="text-white">Entregas</a></li>
+                    <li><a href="#" class="text-white">Trocas e Devoluções</a></li>
+                </ul>
+            </div>
             <div class="col-md-4 mb-4">
                 <h5>Sobre</h5>
                 <ul class="list-unstyled">
@@ -109,5 +209,3 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-

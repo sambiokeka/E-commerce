@@ -17,12 +17,15 @@ Projeto desenvolvido para a disciplina de **Desenvolvimento Web**, com foco na c
 
 ###  Páginas
 - **Index (`index.html`)** → Página inicial do e-commerce.  
-- **Sobre (`sobre.html`)** → Informações sobre a loja e missão sustentável, e com formularios para contato.  
+
+- **Sobre (`sobre.html`)** → Informações sobre a loja e missão sustentável, e com formularios para contato.  }
+
 - **Categorias (`categorias.html`)** → Exibição, com possibilidade de uso de filtros (que são apenas ilustrativos) dos produtos separados por categorias:  
   - Roupas e Acessórios  
   - Beleza Natural  
   - Casa Sustentável  
   - Tecnologia Verde  
+
 - **Detalhes (`detalhes/*.html`)** → Páginas de detalhes de cada produto, exibindo informações completas.  
 
 ---

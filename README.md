@@ -5,7 +5,7 @@ Projeto desenvolvido para a disciplina de **Desenvolvimento Web**, com foco na c
 ---
 
 ##  Integrantes  
-- **Erick Jooji Bertassoli Yamashita** (RM: 564482)  
+- **Erick Jooji** (RM: 564482)  
 - **Luiz Dalboni** (RM: 564189)  
 - **Matheus Tozarelli** (RM: 563490)  
 - **Rafael Lorenzini** (RM: 563643)  

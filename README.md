@@ -4,15 +4,6 @@ Projeto desenvolvido para a disciplina de **Desenvolvimento Web**, com foco na c
 
 ---
 
-##  Integrantes  
-- **Erick Jooji** (RM: 564482)  
-- **Luiz Dalboni** (RM: 564189)  
-- **Matheus Tozarelli** (RM: 563490)  
-- **Rafael Lorenzini** (RM: 563643)  
-- **Rafael Peloso** (RM: 561343)  
-
----
-
 ##  Estrutura do Projeto  
 
 ###  Páginas
